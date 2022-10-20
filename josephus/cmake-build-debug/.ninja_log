@@ -1,3 +1,5 @@
 # ninja log v5
 3	309	6873656347392080	CMakeFiles/josephus.dir/main.cpp.obj	f6321a816d169780
 310	453	6873656348822408	josephus.exe	b7f82a75b0e6c6c4
+2	295	6879721760093145	CMakeFiles/josephus.dir/main.cpp.obj	f6321a816d169780
+295	415	6879721761263414	josephus.exe	b7f82a75b0e6c6c4
