@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = E$:/Project/CProject/josephus/cmake-build-debug/
+cmake_ninja_workdir = E$:/Project/CProject/MyC-Project/josephus/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target josephus
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = E$:/Project/CProject/josephus/cmake-build-debug/
 
 build cmake_object_order_depends_target_josephus: phony || CMakeFiles/josephus.dir
 
-build CMakeFiles/josephus.dir/main.cpp.obj: CXX_COMPILER__josephus_Debug E$:/Project/CProject/josephus/main.cpp || cmake_object_order_depends_target_josephus
+build CMakeFiles/josephus.dir/main.cpp.obj: CXX_COMPILER__josephus_Debug E$:/Project/CProject/MyC-Project/josephus/main.cpp || cmake_object_order_depends_target_josephus
   DEP_FILE = CMakeFiles\josephus.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\josephus.dir
@@ -78,7 +78,7 @@ build josephus.exe: CXX_EXECUTABLE_LINKER__josephus_Debug CMakeFiles/josephus.di
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D E:\Project\CProject\josephus\cmake-build-debug && E:\Software\JetBrains\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D E:\Project\CProject\MyC-Project\josephus\cmake-build-debug && E:\Software\JetBrains\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -89,7 +89,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D E:\Project\CProject\josephus\cmake-build-debug && E:\Software\JetBrains\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SE:\Project\CProject\josephus -BE:\Project\CProject\josephus\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D E:\Project\CProject\MyC-Project\josephus\cmake-build-debug && E:\Software\JetBrains\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SE:\Project\CProject\MyC-Project\josephus -BE:\Project\CProject\MyC-Project\josephus\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -107,7 +107,7 @@ build josephus: phony josephus.exe
 # =============================================================================
 
 #############################################
-# Folder: E:/Project/CProject/josephus/cmake-build-debug
+# Folder: E:/Project/CProject/MyC-Project/josephus/cmake-build-debug
 
 build all: phony josephus.exe
 
