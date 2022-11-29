@@ -8,6 +8,10 @@
 #endif //SCHOOLMAP_CALCULATION_H
 
 
+#include <stdio.h>
+#include <string.h>
+
+
 typedef struct {
     char name[100];
     char information[1000];
@@ -24,12 +28,12 @@ static MapGraph map;
 void create(){
     map.vertex = 17;
     map.edge =26;
-    int i,j,k;
+    /*int i,j,k;
     for(i = 0;i<100;i++){
         for(j=0;j<100;j++){
             map.edges[i][j]=666666;
         }
-    }
+    }*/
 
     strcpy(map.eachinf[0].name,"大门");
     strcpy(map.eachinf[0].information,"学校的大门");
