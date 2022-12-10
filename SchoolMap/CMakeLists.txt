@@ -3,4 +3,4 @@ project(SchoolMap)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(SchoolMap main.cpp schoolmap.h Calculation.h AmundirGraph.h)
+add_executable(SchoolMap main.cpp schoolmap.h Calculation.h)
