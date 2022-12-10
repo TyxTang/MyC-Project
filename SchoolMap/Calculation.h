@@ -50,27 +50,27 @@ void create()
     strcpy(map.eachinf[5].name, "知远楼");
     strcpy(map.eachinf[5].information, "高级的实验楼");
     strcpy(map.eachinf[6].name, "操场");
-    strcpy(map.eachinf[6].information, "学校的操场");
+    strcpy(map.eachinf[6].information, "400米大操场");
     strcpy(map.eachinf[7].name, "厚德楼");
-    strcpy(map.eachinf[7].information, "学校的厚德楼");
+    strcpy(map.eachinf[7].information, "中医药学院的宿舍楼");
     strcpy(map.eachinf[8].name, "进德楼");
-    strcpy(map.eachinf[8].information, "学校的进德楼");
+    strcpy(map.eachinf[8].information, "隔离宿舍");
     strcpy(map.eachinf[9].name, "齐家苑");
-    strcpy(map.eachinf[9].information, "学校的齐家苑");
+    strcpy(map.eachinf[9].information, "部分专科生的宿舍");
     strcpy(map.eachinf[10].name, "翰林园");
-    strcpy(map.eachinf[10].information, "学校的翰林园");
+    strcpy(map.eachinf[10].information, "饭堂");
     strcpy(map.eachinf[11].name, "学林楼");
-    strcpy(map.eachinf[11].information, "学校的学林楼");
+    strcpy(map.eachinf[11].information, "职工宿舍楼");
     strcpy(map.eachinf[12].name, "学翰楼");
-    strcpy(map.eachinf[12].information, "学校的学翰楼");
+    strcpy(map.eachinf[12].information, "有电梯的男生宿舍");
     strcpy(map.eachinf[13].name, "怡馨苑");
-    strcpy(map.eachinf[13].information, "学校的怡馨苑");
+    strcpy(map.eachinf[13].information, "男生宿舍");
     strcpy(map.eachinf[14].name, "和馨苑");
-    strcpy(map.eachinf[14].information, "学校的和馨苑");
+    strcpy(map.eachinf[14].information, "女生宿舍");
     strcpy(map.eachinf[15].name, "桐桦楼");
-    strcpy(map.eachinf[15].information, "学校的桐桦楼");
+    strcpy(map.eachinf[15].information, "老师和家属住的宿舍楼");
     strcpy(map.eachinf[16].name, "学海楼");
-    strcpy(map.eachinf[16].information, "学校的学海楼");
+    strcpy(map.eachinf[16].information, "以前的隔离宿舍，现在的教师宿舍");
 
     map.edges[0][1] = map.edges[1][0] = 50;      //大门到教学楼
     map.edges[0][2] = map.edges[2][0] = 60;       //大门到实验楼A
